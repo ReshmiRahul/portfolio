@@ -1,0 +1,73 @@
+.project-container {
+    display: flex;
+    width: 319px;
+    height: 381px;
+    padding: 17px 0px;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.pro-container {
+    display: flex;
+    width: 1241px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.project1,.project2{
+    width: 319px;
+    height: 347px;
+    padding: 0px 10px 8px 10px;
+    flex-direction: column;
+}
+
+.project3 {
+    width: 319px;
+    height: 347px;
+    margin-top: 690px; /* Space between the first row and project3 */
+    margin-left: -780px; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    flex: none;
+}
+.npss-img {
+    width: 299px;
+    height: 184px;
+    flex-shrink: 0;
+    align-self: stretch;
+    opacity: var(--sds-size-stroke-border);
+    background: url(images/npss.png) lightgray 50% / cover no-repeat;
+}
+
+.ewaste-img {
+    width: 299px;
+    height: 184px;
+    flex-shrink: 0;
+    align-self: stretch;
+    opacity: var(--sds-size-stroke-border);
+    background: url(images/ewaste.png) lightgray 50% / cover no-repeat;
+}
+
+.toboggan-img {
+    width: 299px;
+    height: 184px;
+    flex-shrink: 0;
+    align-self: stretch;
+    opacity: var(--sds-size-stroke-border);
+    background: url(images/toboggan.png) lightgray 50% / cover no-repeat;
+}
+
+.npss-text p {
+    font-size: 12px;
+}
+
+
+.projectButton-container {
+    width: 116px;
+    height: 30px;
+}
+
+
+.projectButton-primary {
+    font-size: 12px;
+}
